@@ -23,14 +23,6 @@ function Footer() {
             ))}
           </ul>
         </div>
-        <div className="">
-          <p
-            className=""
-            dangerouslySetInnerHTML={{
-              __html: copyrightText,
-            }}
-          ></p>
-        </div>
       </footer>
     </>
   );
